@@ -8,3 +8,4 @@ while count <= 4:
     count += 1
 
 print('O aluno sorteado foi: {}'.format(nome[random.randint(1, count)]))
+ 
