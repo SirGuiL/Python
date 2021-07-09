@@ -1,8 +1,7 @@
-from math import pow, sqrt
+import math
 
 catetoAdjacente = float(input('Digite o valor do cateto adjacente: '))
 catetoOposto = float(input('Digite o valor do cateto oposto: '))
 
-hipotenusa = sqrt(pow(catetoAdjacente, 2) + pow(catetoOposto, 2))
-
+hipotenusa = math.hypot(catetoAdjacente, catetoOposto)
 print('\nMedidas do triângulo retângulo: \nCateto Adjacente: {}\nCateto Oposto: {}\nHipotenusa: {}'.format(catetoAdjacente, catetoOposto, hipotenusa))
