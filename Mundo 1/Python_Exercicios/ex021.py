@@ -1,6 +1,5 @@
 import pygame
+
 pygame.mixer.init()
-pygame.init()
-pygame.mixer.music.load('sound.m4a')
-pygame.music.play()
-pygame.event.wait()
+pygame.mixer.music.load('sound.M4A')
+pygame.mixer.music.play()
