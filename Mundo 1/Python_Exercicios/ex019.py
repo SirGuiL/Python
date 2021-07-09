@@ -7,4 +7,4 @@ while count <= 4:
     nome += [input('Digite o nome do aluno: ')]
     count += 1
 
-print('\nO aluno sorteado foi: {}'.format(nome[random.randint(1, count)]))
+print('O aluno sorteado foi: {}'.format(nome[random.randint(1, count)]))
