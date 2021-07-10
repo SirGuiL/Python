@@ -1,9 +1,9 @@
-import random
+from random import randint
 
 print('Adivinhe o número que estou pensando:\nDica: É um número de 0 a 10\nBoa sorte =)')
 num = int(input(''))
 
-randomNum = random.randint(1, 10)
+randomNum = randint(1, 10)
 
 if num == randomNum:
     print('Parabéns, você acertou!!')
