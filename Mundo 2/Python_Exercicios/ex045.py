@@ -1,4 +1,5 @@
 from random import randint
+from time import sleep
 
 print('1 - Pedra\n2 - Papel\n3 - Tesoura')
 num = int(input('Escolha o código de pedra, papel ou tesoura: '))
@@ -9,7 +10,14 @@ if pcnum == 1: pcstring = 'Pedra'
 elif pcnum == 2: pcstring = 'Papel'
 else: pcstring = 'Tesoura'
 
-print('Eu escolho {}.'.format(pcstring))
+print('jo')
+sleep(1)
+print('ken')
+sleep(1)
+print('po')
+sleep(1)
+
+print('Eu escolhi {}.'.format(pcstring.lower()))
 
 if num == 1:
     if pcnum == 1:
