@@ -17,5 +17,3 @@ if lados[2] <= lados[1] + lados[0]:
 
 else:
     print('É impossível formar um triângulo com essas retas')
-
-a = input('a')
