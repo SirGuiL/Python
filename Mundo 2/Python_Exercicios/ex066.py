@@ -1,7 +1,7 @@
 num = soma = count = 0
 
 while True:
-    num = int(input('Digite um número: '))
+    num = int(input('Digite um número: (999 para o programa)'))
     if num == 999: break
     count += 1
     soma += num
