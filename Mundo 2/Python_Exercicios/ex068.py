@@ -1,7 +1,7 @@
 from random import randint
 from time import sleep
 
-num = escolha = res = 0
+num = escolha = res = vitorias = 0
 
 print('ÍMPAR OU PAR')
 print('1 - Par\n2 - Ímpar')
@@ -17,8 +17,14 @@ while True:
     if (num + n) % 2 == 0: res = 1
     else: res = 2
 
-    if res == escolha: print(f'Eu escolhi {n} e você escolheu {num}, você venceu!')
+    if res == escolha: 
+        print(f'Eu escolhi {n} e você escolheu {num}, você venceu!')
+        vitorias += 1
     else: 
         print(f'Eu escolhi {n} e você escolheu {num}, eu venci!')
         break
     sleep(1)
+
+if vitorias > 1: print(f'Você conseguiu {vitorias} vitórias consecutivas, parabéns!')
+elif vitorias == 1: print('Você só conseguiu uma vitória, boa sorte na próxima!')
+else: print('Você não conseguiu vencer, boa sorte na próxima!')
