@@ -22,6 +22,11 @@ contagem = (
     'vinte'
 )
 
-num = int(input('Digite um número entre 0 e 20: '))
+while True:
+    num = int(input('Digite um número entre 0 e 20: '))
+
+    if num >= 0 and num <= 20:
+        break
+    print('Tente novamente. ', end='')
 
 print(contagem[num])
