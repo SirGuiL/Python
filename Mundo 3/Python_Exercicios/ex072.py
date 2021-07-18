@@ -25,5 +25,3 @@ contagem = (
 num = int(input('Digite um número entre 0 e 20: '))
 
 print(contagem[num])
-
-a = input('a')
