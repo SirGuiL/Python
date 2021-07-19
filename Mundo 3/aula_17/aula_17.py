@@ -51,6 +51,3 @@ for count in range(0, 5):
 
 for c, v in enumerate(números):
     print(f'Na posição {c} encontrei o valor {v}!')
-
-
-a = input('a')
