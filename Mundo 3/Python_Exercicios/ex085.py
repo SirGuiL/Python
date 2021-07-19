@@ -10,6 +10,9 @@ for n in range(0, 7):
     else:
         lista[1].append(num)
 
+lista[0].sort()
+lista[1].sort()
+
 print(f'Os números pares são', end=' ')
 for p in lista[0]:
     if x + 1 == len(lista[0]):
