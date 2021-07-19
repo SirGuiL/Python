@@ -22,6 +22,3 @@ lista.sort()
 
 for c in lista:
     print(c, end=' ')
-
-a = input('a')
-    
