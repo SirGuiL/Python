@@ -3,7 +3,7 @@ num = int
 x = 1
 
 for n in range(0, 7):
-    num = int(input('Digite um valor numérico: '))
+    num = int(input(f'Digite o {n + 1}º valor numérico: '))
 
     if num % 2 == 0:
         lista[0].append(num)
