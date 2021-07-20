@@ -12,9 +12,7 @@ numjogos = int(input('Quantos jogos devem ser gerados: '))
 
 if numjogos > 1:
     print('-'*39)
-    print('-'*10, end=' ')
-    print(f'Sorteando {numjogos} jogos', end=' ')
-    print('-'*10)
+    print('-'*10, f'Sorteando {numjogos} jogos','-'*10)
     print('-'*39)
 elif numjogos == 0:
     print('Erro: você não pode pedir para sortear 0 jogos.')
