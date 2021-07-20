@@ -42,6 +42,7 @@ while True:
         sleep(1)
         break
 
+print(f'{"NOME":<20} | {"MÉDIA":>20}')
 for aluno in alunos:
     print(f'{aluno[0]:<20} | {aluno[3]:>20}')
 
