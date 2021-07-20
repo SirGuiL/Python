@@ -20,7 +20,7 @@ elif numjogos == 0:
         a = input('Feche o programa.')
 else:
     print('-'*39)
-    print(f'{"Sorteando 1 jogo":^39}')
+    print('-'*10, 'Sorteando 1 jogo', '-'*11)
     print('-'*39)
 
 for j in range(0, numjogos):
