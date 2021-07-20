@@ -21,7 +21,9 @@ elif numjogos == 0:
     while True:
         a = input('Feche o programa.')
 else:
-    print('Sorteando 1 jogo')
+    print('-'*39)
+    print(f'{"Sorteando 1 jogo":^39}')
+    print('-'*39)
 
 for j in range(0, numjogos):
     count = 0
