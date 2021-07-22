@@ -1,4 +1,4 @@
-# Listas (parte 2)
+# Variáveis Compostas (Listas) parte 2
 
 dados = list()
 pessoa = list()
