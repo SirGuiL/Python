@@ -10,8 +10,6 @@ counter = 1
 for player in range(0, 4):
     players.append(input(f'Digite o {player + 1}º nome: '))
 
-
-
 for dice in range(0, 4):
     print(f'Rodando o dado para {players[dice]}...')
     sleep(1)
@@ -22,9 +20,6 @@ for dice in range(0, 4):
     print(f'Seu dado deu {numdice}')
 
 sort_dices = sorted(data.items(), key = lambda x:x[1], reverse=True)
-
-print(players)
-print(data)
 
 numdice = 0
 
@@ -39,7 +34,3 @@ for player in sort_dices:
     
     print(f'{counter}º lugar: {player[0]} com {player[1]}')
     
-    
-
-
-a = input('a')
