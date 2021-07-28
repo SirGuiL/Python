@@ -1,5 +1,6 @@
 from random import randint
 from time import sleep
+from operator import itemgetter
 
 finaldata = list()
 data = dict()
@@ -19,7 +20,7 @@ for dice in range(0, 4):
 
     print(f'Seu dado deu {numdice}')
 
-sort_dices = sorted(data.items(), key = lambda x:x[1], reverse=True)
+sort_dices = sorted(data.items(), key = itemgetter(1), reverse=True)
 
 numdice = 0
 
