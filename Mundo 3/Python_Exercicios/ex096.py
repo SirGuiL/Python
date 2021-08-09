@@ -3,8 +3,8 @@ def area(width, length):
 
 
 # programa principal
-width = float(input('Digite a largura do terreno: '))
-length = float(input('Digite o comprimento do terreno: '))
+width = float(input('Digite a largura do terreno (em metros): '))
+length = float(input('Digite o comprimento do terreno (em metros): '))
 
 area(width, length)
 
