@@ -32,5 +32,3 @@ end = int(input('Fim: '))
 step = int(input('Passo: '))
 
 counter(start, end, step)
-
-a = input('')
