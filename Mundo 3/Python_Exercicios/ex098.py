@@ -1,6 +1,10 @@
 from time import sleep
 
 def counter(start, end, step):
+    if step < 0:
+        step *= -1
+    if step == 0:
+        step = 1
     if start < end:
         count = start
         while count <= end:
@@ -28,3 +32,5 @@ end = int(input('Fim: '))
 step = int(input('Passo: '))
 
 counter(start, end, step)
+
+a = input('')
